@@ -1,0 +1,78 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - vowels",
+            "request": "launch",
+            "mainClass": "vowels",
+            "projectName": "java_training_6d587f59"
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - whichMonth",
+            "request": "launch",
+            "mainClass": "whichMonth",
+            "projectName": "java_training_6d587f59"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - months",
+            "request": "launch",
+            "mainClass": "months",
+            "projectName": "java_training_6d587f59"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - oddEven",
+            "request": "launch",
+            "mainClass": "oddEven",
+            "projectName": "java_training_6d587f59"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - computeAreaInput",
+            "request": "launch",
+            "mainClass": "computeAreaInput",
+            "projectName": "java_training_6d587f59",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - computeArea",
+            "request": "launch",
+            "mainClass": "computeArea",
+            "projectName": "java_training_6d587f59"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Area",
+            "request": "launch",
+            "mainClass": "Area",
+            "projectName": "java_training_6d587f59"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "java_training_6d587f59"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Welcome",
+            "request": "launch",
+            "mainClass": "Welcome"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
