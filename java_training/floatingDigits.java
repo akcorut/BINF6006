@@ -20,6 +20,6 @@ public class floatingDigits {
         String str = str_temp.substring(0,str_temp.indexOf('.')); // Get substring before point
         int digits = str.length();
         
-        System.out.print(digits);
+        System.out.print("There are " +digits +" digits before point.");
     }
 }
