@@ -21,10 +21,9 @@ public class letterValue {
         d.put("D", 1);
         d.put("F", 0);
 
-        
-            System.out.print("Enter your letter grade (A to F): "); 
-            String grade = input.nextLine();
+        System.out.print("Enter your letter grade (A to F): "); 
+        String grade = input.nextLine();
 
-            System.out.println("Your numeric grade is: " + d.get(grade.toUpperCase())); // Print the output
+        System.out.println("Your numeric grade is: " + d.get(grade.toUpperCase())); // Print the output
     }
 }
