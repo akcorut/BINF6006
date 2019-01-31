@@ -6,11 +6,10 @@ public class methods {
         return sum;
     }
     public static int max(int i, int j) {
-        if (i > j) {
+        if (i > j) 
             return i;
-        } else {
+        else
             return j;
-        }
     }
     public static void main(String[] args) {
         System.out.println("Sum from 1 to 10 is " + sum(1, 10));
