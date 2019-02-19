@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class binSearch {
 
 public static int binSrch(int[] list, int key) {
