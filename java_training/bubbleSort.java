@@ -1,7 +1,6 @@
-public class bubbleSort {
-    public static void main(String[] args) {
-    }
-    public static void bubblesort(int array[]) {
+public class BubbleSort {
+    
+    static void bubblesort(int[] array) {
         int n = array.length;
         int temp = 0;
         for(int i=0; i<n-1;i++) {
@@ -13,5 +12,13 @@ public class bubbleSort {
                 }
             }
         }
+    }
+    public static void main(String[] args) {
+        int array[] = {56, 20, 43, 23, 10};
+        bubblesort(array);
+        System.out.println("Array After Bubble Sort");  
+                for(int i=0; i < array.length; i++){  
+                        System.out.print(array[i] + " ");
+                }  
     }
 }
