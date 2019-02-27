@@ -1,10 +1,9 @@
 public class objOri {
-    Circle c1 = new Circle(2.3);
-    double result = c1(2.3);
-    System.out.print(result);
+    public static void main(String[] args) {
+        Circle c1 = new Circle(2.3);
+        System.out.println("The radius is: " + c1.getArea());
+    }
 }
-
-
 class Circle {
     double radius = 1.0;
 
