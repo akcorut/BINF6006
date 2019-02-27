@@ -1,0 +1,6 @@
+int count=0;
+for (int=0;i<name.length;i++) {
+    if (name.charAt(i)=="A")
+        count ++;
+}
+S.O.P.(count);
