@@ -31,7 +31,7 @@ class Circle {
     double getArea() {
         return radius * radius * 3.14159;
     }
-    double getColor() {
+    String getColor() {
         return color;
     }
 }
