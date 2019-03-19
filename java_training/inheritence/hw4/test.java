@@ -1,3 +1,7 @@
+/** 
+ * @author Adnan Kivanc Corut
+ */
+
 public class test{
     public static void main(String[] args) {
         person me = new person();
