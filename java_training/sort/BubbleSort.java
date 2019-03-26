@@ -1,4 +1,4 @@
-public class BubbleSort {
+public class bubbleSort {
     
     static void bubblesort(int[] array) {
         int n = array.length;
