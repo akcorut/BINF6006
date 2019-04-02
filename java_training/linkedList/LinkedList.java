@@ -25,4 +25,21 @@ public class LinkedList {
         }
     System.out.println(node.data);
     }
+    public int getFirst() {
+        if (head == null) 
+            System.out.print(ln("No data"));
+        return data;
+    }
+    public int getLast() {
+        if (head == null)
+            System.out.println("No data");
+        Node tmp = head;
+        while(tmp.next != null) {
+            //
+            //
+        }
+    }
+    public clear() {
+        head = null;
+    }
 }
