@@ -10,35 +10,35 @@ public class DLL {
             data = d; 
         } 
     }
-    public void push(int new_data) {
-        Node new_Node = new Node(new_data); 
+    public void push(int newData) {
+        Node newNode = new Node(newData); 
 
-        new_Node.next = head; 
-        new_Node.prev = null;
+        newNode.next = head; 
+        newNode.prev = null;
 
         if (head != null) 
-            head.prev = new_Node;
+            head.prev = newNode;
 
-        head = new_Node; 
+        head = newNode; 
     }
-    void append(int new_data) {
+    void append(int newData) {
         
-        Node new_node = new Node(new_data); 
+        Node newNode = new Node(newData); 
         Node last = head;
         
-        new_node.next = null;
+        newNode.next = null;
         
         if (head == null) { 
-            new_node.prev = null; 
-            head = new_node; 
+            newNode.prev = null; 
+            head = newNode; 
             return; 
         }
         while (last.next != null) 
             last = last.next; 
 
-        last.next = new_node; 
+        last.next = newNode; 
 
-        new_node.prev = last; 
+        newNode.prev = last; 
     }
     void delete(Node headPoint, Node delData) {
 
@@ -59,6 +59,37 @@ public class DLL {
         }
         return; 
     }
-    
+    public void insert(Node targetNode, int newData) { 
+        if (targetNode == null) { 
+            System.out.println("Node is null"); 
+            return; 
+        }
+        Node newNode = new Node(newData); 
+
+        newNode.next = targetNode.next; 
+        targetNode.next = newNode; 
+        newNode.prev = targetNode; 
+
+        if (newNode.next != null) 
+            newNode.next.prev = newNode; 
+    }
+    void isEmpty() {
+        if (head == null) {
+            System.out.println("\nList is empty\n"); 
+            return; 
+        } else {
+            System.out.println("\nList is not empty\n"); 
+            return;
+        }    
+    }
+    public int size(Node node) { 
+        int r = 0; 
+        while (node != null)  
+        { 
+                r++; 
+                node = node.next; 
+        }
+        return r; 
+    } 
 }
 
