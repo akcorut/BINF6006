@@ -84,12 +84,22 @@ public class DLL {
     }
     public int size(Node node) { 
         int r = 0; 
-        while (node != null)  
-        { 
-                r++; 
-                node = node.next; 
+        while (node != null) { 
+            r++; 
+            node = node.next; 
         }
         return r; 
+    }
+    public void show(Node node) 
+    { 
+        Node last = null;
+
+        while (node != null) { 
+            System.out.print(node.data + " "); 
+            last = node; 
+            node = node.next; 
+        }
+        System.out.println(); 
     } 
 }
 
