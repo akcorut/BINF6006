@@ -1,4 +1,8 @@
-public class DLL { 
+/**
+ * @author Adnan Kivanc Corut
+ */
+
+public class dll { 
     Node head;
 
     class Node { 
@@ -82,7 +86,7 @@ public class DLL {
             return;
         }    
     }
-    public int size(Node node) { 
+    public int DoubleySize(Node node) { 
         int r = 0; 
         while (node != null) { 
             r++; 
@@ -90,7 +94,7 @@ public class DLL {
         }
         return r; 
     }
-    public void show(Node node) 
+    void show(Node node) 
     { 
         Node last = null;
 
@@ -100,6 +104,27 @@ public class DLL {
             node = node.next; 
         }
         System.out.println(); 
-    } 
+    }
+    public static void main(String[] args) {
+        dll list1 = new dll(); 
+        
+        list1.push(13);
+        list1.push(65);
+        list1.push(64);
+        list1.append(43);
+        list1.append(11);
+        list1.show(list1.head); 
+        
+        list1.insert(list1.head.next, 33);
+        list1.show(list1.head); 
+        
+        list1.delete(list1.head, list1.head.next);
+        list1.show(list1.head);
+        
+        list1.isEmpty();
+        
+        System.out.println("\nSize of the list: " + list1.DoubleySize(list1.head));
+    }
 }
+
 
