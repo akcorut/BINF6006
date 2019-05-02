@@ -1,0 +1,10 @@
+HashSet
+•boolean add(E e): add the specified element if it is not present, if it is present then return false.
+
+•void clear(): removes all the elements from set.
+
+•boolean contains(Object o): return true if element is present in set.
+
+•boolean remove(Object o): remove the element if it is present in set.
+
+•Iterator iterator(): return an iterator over the element in the set
